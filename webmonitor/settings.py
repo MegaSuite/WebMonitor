@@ -154,7 +154,7 @@ SIMPLEUI_ICON = {
 
 SIMPLEUI_ANALYSIS = False
 SIMPLEUI_STATIC_OFFLINE = True
-SIMPLEUI_LOGO = 'https://www.logicjake.xyz/img/favicon.ico'
+SIMPLEUI_LOGO = STATIC_URL + 'img/logo.png'
 
 # logging配置
 log_path = os.path.join(BASE_DIR, 'static', 'log')
